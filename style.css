@@ -1,0 +1,68 @@
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    background:#f5f7fb;
+    margin: 0;
+    padding: 20px;
+
+}
+
+h1{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#main-container{
+    max-width: 1000px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 20px;
+    background:#ffffff;
+}
+
+.card{
+    background: rgb(4, 191, 212);
+    padding: 15px;
+    border-radius: 10px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+input, select, textarea, button{
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px rgb(33, 182, 169) solid;
+}
+
+button{
+    background:#ffffff;
+    color: black;
+    cursor: pointer;
+
+}
+
+.event-card{
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    position: relative;
+}
+
+.delete-btn{
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    
+    padding: 3px 6px;
+}
+
+.actions{
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10px;
+}
